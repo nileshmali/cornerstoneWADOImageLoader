@@ -27,6 +27,7 @@ module.exports = {
     },
     globalObject: 'this',
     path: outputPath,
+    publicPath: '/',
     filename: '[name].bundle.min.js',
   },
   devtool: 'source-map',
